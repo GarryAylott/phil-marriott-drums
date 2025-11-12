@@ -1,0 +1,22 @@
+# Node & dependencies
+node_modules/
+npm-debug.log*
+
+# Build output
+dist/
+*.local
+*.log
+
+# Editor / OS junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment & cache
+.env
+.env.*
+.cache/
+vite.config.temp.js

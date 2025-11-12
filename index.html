@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>My One Pager</title>
+        <meta
+            name="description"
+            content="A simple one-page website powered by Vite."
+        />
+
+        <!-- Open Graph -->
+        <meta property="og:title" content="My One Pager" />
+        <meta
+            property="og:description"
+            content="A simple one-page website powered by Vite."
+        />
+        <meta property="og:image" content="/src/assets/images/og-image.jpg" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://example.com" />
+
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="My One Pager" />
+        <meta
+            name="twitter:description"
+            content="A simple one-page website powered by Vite."
+        />
+        <meta name="twitter:image" content="/src/assets/images/og-image.jpg" />
+
+        <link rel="icon" href="/src/assets/images/favicon.ico" />
+
+        <script type="module" src="/src/main.js"></script>
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="container">
+                <h1 class="logo">My One Pager</h1>
+                <nav>
+                    <ul class="nav">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section id="hero" class="hero">
+                <div class="container">
+                    <h2>Welcome</h2>
+                    <p>This is a modern one-page site built with Vite.</p>
+                </div>
+            </section>
+
+            <section id="about" class="about">
+                <div class="container">
+                    <h2>About</h2>
+                    <p>Everything you need, nothing you don’t.</p>
+                </div>
+            </section>
+
+            <section id="contact" class="contact">
+                <div class="container">
+                    <h2>Contact</h2>
+                    <p>
+                        Email us at
+                        <a href="mailto:hello@example.com">hello@example.com</a>
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <p>&copy; <span id="year"></span> My One Pager</p>
+            </div>
+        </footer>
+    </body>
+</html>

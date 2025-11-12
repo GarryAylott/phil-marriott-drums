@@ -1,0 +1,36 @@
+@use "variables" as *;
+@use "base" as *;
+
+.site-header,
+.site-footer {
+    background: $clr-primary;
+    color: white;
+    padding: 1rem 0;
+}
+
+.logo {
+    margin: 0;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+
+    a.active {
+        font-weight: 600;
+        border-bottom: 2px solid white;
+    }
+}
+
+.hero {
+    padding: 6rem 0;
+    text-align: center;
+}
+
+.about,
+.contact {
+    padding: 4rem 0;
+}
