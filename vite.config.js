@@ -1,4 +1,5 @@
 import { defineConfig } from "vite";
+import { fileURLToPath, URL } from "node:url";
 
 export default defineConfig(({ command }) => {
     const isDev = command === "serve";
@@ -24,11 +25,16 @@ export default defineConfig(({ command }) => {
                 },
             },
         ],
+        resolve: {
+            alias: {
+                "@": fileURLToPath(new URL("./src", import.meta.url)),
+            },
+        },
         css: {
             devSourcemap: isDev,
             preprocessorOptions: {
                 scss: {
-                    additionalData: `@use "src/styles/_variables.scss" as *;`,
+                    additionalData: `@use "@/styles/_variables.scss" as *;`,
                 },
             },
         },

@@ -10,8 +10,8 @@ Designed and developed to showcase Phil Marriott’s work as a professional drum
 This site is a fast, minimal, and accessible one-pager designed for performance, clarity, and easy maintenance.  
 The build pipeline uses **Vite** for instant hot-reload during development and automatic minification + optimization for production.
 
--   ⚡ Lightning-fast development with HMR (Hot Module Replacement)
--   🎨 Modern SCSS architecture with variables and mixins
+-   ⚡ HMR (Hot Module Replacement)
+-   🎨 SCSS architecture with variables and mixins
 -   🧩 Vanilla JS for light interactivity (no libraries or frameworks)
 -   🧠 Autoprefixed + minified CSS and JS
 -   🧱 Fully static build, deployable via simple sFTP
